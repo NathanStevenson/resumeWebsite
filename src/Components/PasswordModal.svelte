@@ -87,8 +87,8 @@
 
     .userpass{
         position: absolute;
-        left: 50%;
-        top: 47%;
+        left: 44%;
+        top: 45%;
         transform: translate(-50%, -50%);
     }
 
@@ -100,14 +100,14 @@
     }
 
     input{
-        width: 300px;
+        width: 150%;
     }
 
     .error{
         color: red;
-        width: 500px;
+        width: 100%;
         position: absolute;
-        left: 50%;
+        left: 68%;
         top: 73%;
         transform: translate(-50%, -50%);
     }
