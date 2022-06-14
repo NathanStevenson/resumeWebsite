@@ -31,7 +31,7 @@
             <input type="text" id="password" bind:value={password}>
 
             <label for="favColor">Favorite Color (no spaces)</label>
-            <input type="text" id="favColor" placeholder="blue" bind:value={favColor}>
+            <input type="text" id="favColor" placeholder="lightblue" bind:value={favColor}>
         </div>
         <div class = "error">
             {#if showErrorMessage}
