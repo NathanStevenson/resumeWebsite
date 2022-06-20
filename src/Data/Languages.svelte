@@ -26,7 +26,7 @@
         The program then uses a breadth first search to determine the least amount of moves to solve the puzzle. It then <br>
         outputs the least amount of moves needed, as well as the moves themselves to solve the puzzle.</li>
 
-        <li>Svelte: <a href="http://localhost:8080/">Building a website as my resume</a>
+        <li>Svelte: <a href="https://resume-website-azure.vercel.app/">Building a website as my resume</a>
         </li>
     </ul>
 
