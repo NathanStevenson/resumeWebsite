@@ -99,4 +99,10 @@
 		text-align: center;
 	}
 
+	@media (min-width: 640px) {
+		main {
+			max-width: none;
+		}
+	}
+
 </style>
