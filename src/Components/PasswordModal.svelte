@@ -87,29 +87,26 @@
 
     .userpass{
         position: absolute;
-        left: 44%;
+        left: 50%;
         top: 45%;
-        transform: translate(-50%, -50%);
-    }
-
-    label{
-        margin-top: 10px;
+        transform: translate(-45%, -50%);
         color: rgb(0, 0, 157);
         font-weight: bold;
         font-size: 16px;
     }
 
     input{
-        width: 150%;
+        margin-bottom: 20px;
     }
 
     .error{
         color: red;
-        width: 100%;
+        width: 70%;
         position: absolute;
         left: 68%;
         top: 73%;
-        transform: translate(-50%, -50%);
+        transform: translate(-73%, -68%);
+        margin: 5px;
     }
 
 
