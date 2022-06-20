@@ -99,9 +99,11 @@
 		text-align: center;
 	}
 
-	@media (min-width: 640px) {
+	@media (max-width: 640px) {
 		main {
-			max-width: none;
+			display: flex;
+			flex-wrap: wrap;
+			
 		}
 	}
 
