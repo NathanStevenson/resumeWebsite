@@ -22,22 +22,24 @@
 <div class ="background">
     <div class ="modal">
         <h1>Welcome, sign in below!</h1>
-        <button on:click = {logIn}> Log in</button>
         <div class = "userpass">
-            <label for="username">Username</label>
-            <input type="text" id="username" bind:value={username}>
+            <div>
+                <label for="username">Username</label>
+                <input type="text" id="username" bind:value={username}>
 
-            <label for="password">Enter Password Given</label>
-            <input type="text" id="password" bind:value={password}>
+                <label for="password">Enter Password Given</label>
+                <input type="text" id="password" bind:value={password}>
 
-            <label for="favColor">Favorite Color (no spaces)</label>
-            <input type="text" id="favColor" placeholder="lightblue" bind:value={favColor}>
+                <label for="favColor">Favorite Color (no spaces)</label>
+                <input type="text" id="favColor" placeholder="lightblue" bind:value={favColor}>
+            </div>
         </div>
         <div class = "error">
             {#if showErrorMessage}
                 <p>The password you entered was incorrect, or your username was blank.</p>
             {/if}
         </div>
+        <button on:click = {logIn}> Log in</button>
     </div>
 </div>
 
@@ -97,7 +99,11 @@
 
     input{
         margin-bottom: 20px;
+        max-width: 150%;
+        padding: 5px;
+        position: relative;
     }
+
 
     .error{
         color: red;
