@@ -23,7 +23,6 @@
     <div class ="modal">
         <h1>Welcome, sign in below!</h1>
         <div class = "userpass">
-            <div>
                 <label for="username">Username</label>
                 <input type="text" id="username" bind:value={username}>
 
@@ -32,7 +31,6 @@
 
                 <label for="favColor">Favorite Color (no spaces)</label>
                 <input type="text" id="favColor" placeholder="lightblue" bind:value={favColor}>
-            </div>
         </div>
         <div class = "error">
             {#if showErrorMessage}
@@ -60,7 +58,6 @@
         width: 50%;
         height: 70%;
         background-color: white;
-        margin: auto;
         border-radius: 30px;
         position: absolute;
         left: 50%;
@@ -95,6 +92,7 @@
         color: rgb(0, 0, 157);
         font-weight: bold;
         font-size: 16px;
+        padding: 10px;
     }
 
     input{
@@ -114,6 +112,8 @@
         transform: translate(-73%, -68%);
         margin: 5px;
     }
+
+    
 
 
 </style>

@@ -40,7 +40,7 @@
     }
 
     .button{
-        position: absolute; left: 370px;
+        position: absolute; left: 25%;
     }
 
     img{
